@@ -28,19 +28,19 @@
 
 .page-title h2{
   color: #f1356d;
-  font-size: calc(2rem *.0.75);
+  font-size: calc(2rem * 0.75);
 }
 
 .page-title h3{
   color: #333;
   font-weight:normal;
-  font-size: calc(2rem *.0.65);
+  font-size: calc(2rem * 0.65);
 }
 
 .page-title h4{
   color: #333;
   font-weight:normal;
-  font-size: calc(2rem *.0.35);
+  font-size: calc(2rem * 0.35);
 }
 .nav-title-link{
   margin-left:0 !important;
