@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /* base styles */
+
 * {
   margin: 0;
   font-family: "Quicksand";
+  line-height:1.5;
   font-size:18px;
   color: #333;
 }
@@ -11,18 +13,37 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  justify-content: space-evenly;
+  min-width: 90vw;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1, .nav-title{
   color: #f1356d;
 }
+
+.page-title h1{
+  color: #f1356d;
+  font-size: 32px;
+}
+
+.page-title h2{
+  color: #f1356d;
+  font-size: calc(2rem *.0.75);
+}
+
+.page-title h3{
+  color: #333;
+  font-weight:normal;
+  font-size: calc(2rem *.0.65);
+}
+
+.page-title h4{
+  color: #333;
+  font-weight:normal;
+  font-size: calc(2rem *.0.35);
+}
 .nav-title-link{
   margin-left:0 !important;
-}
-.home h1{
-  color:#333;
 }
 .nav-title,.home h1{
   font-size: 2rem;
@@ -41,13 +62,13 @@
   color: #f1356d;
 }
 .content {
-  max-width: 600px;
+  max-width: 80vw;
   margin: 40px auto;
   padding: 20px;
 }
 
 /* blog previews / list */
-.blog-preview {
+.blog-preview, .scenario {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
@@ -121,3 +142,4 @@
   border-radius: 2px;
   cursor: pointer;
 }
+
