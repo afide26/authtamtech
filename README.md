@@ -8,3 +8,4 @@ The purpose of this application is to show how Auth0 login and authorisation can
 3. Add authorization for protected routes
 
 
+This [app](https://authtamtech.herokuapp.com/) is currently deployed in Heroku
