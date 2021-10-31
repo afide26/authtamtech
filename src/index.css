@@ -142,3 +142,10 @@
   border-radius: 2px;
   cursor: pointer;
 }
+
+
+button{
+  border:none;
+  background:none;
+  cursor:pointer;
+}
