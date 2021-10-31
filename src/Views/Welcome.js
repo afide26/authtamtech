@@ -1,13 +1,16 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import TravelOptions from "../Components/TravelOptions";
-
+import image from "../images/cruise0.png"
 
 
 const Welcome = () => {
     const {isAuthenticated} = useAuth0()
     return (
-        <div className="page-title content">
-        <h2>Welcome to Cruise0</h2>
+        <div className="page-title content profile">
+        <h2>
+          <span><img src={image} alt="Cruise0" /></span>
+          Welcome to Cruise0
+        </h2>
         <h3>Explore the possibilities of traveling around the world with luxurious and affordable packages from Cruise0.</h3>
         <p>Use the choices below to book your package</p>
         {isAuthenticated && <TravelOptions/>}

@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from "./Views/Navbar";
 import Home from "./Views/Home";
 import Welcome from "./Views/Welcome";
+import Privacy from "./Views/Privacy";
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/challengethree">
           <ChallengeThree/>
+        </Route>
+        <Route path="/privacy-policy">
+          <Privacy/>
         </Route>
       </Switch>
     </Router>
