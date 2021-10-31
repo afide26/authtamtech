@@ -16,9 +16,9 @@ const Navbar = () => {
                 <Link to="/challengethree">Challenge Three</Link>
                 <LogoutButton/>
             </div>)}
-            <div className="links">
+            {!isAuthenticated && <div className="links">
                 <LoginButton/>
-            </div>
+            </div>}
         </nav>
     );
 }
