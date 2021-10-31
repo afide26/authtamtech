@@ -4,6 +4,8 @@ import ChallengeThree from "./Views/ChallengeThree";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from "./Views/Navbar";
 import Home from "./Views/Home";
+import Welcome from "./Views/Welcome";
+
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       </div>
       <Switch>
         <Route exact path="/">
+          <Welcome/>
+        </Route>
+        <Route path="/home">
           <Home/>
         </Route>
         <Route path="/challengeone">
