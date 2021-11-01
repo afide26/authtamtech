@@ -18,7 +18,7 @@ const Navbar = () => {
     
     return(
         <nav className="navbar">
-            <Link to="/" className="nav-title-link"><div className="nav-title">Auth0 TAM Test</div></Link>
+            <Link to="/" className="nav-title-link"><div className="nav-title">Cruise0</div></Link>
  
             <div className="links">
                 <Link to="/" exact>Welcome</Link>
