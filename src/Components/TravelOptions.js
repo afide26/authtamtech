@@ -5,10 +5,6 @@ const TravelOptions = () => {
 
     return (
        isAuthenticated && <div className="profile">
-            <h3>
-                <span><img src={user.picture} alt={user.nickname} /></span>
-                Welcome {user.name}
-            </h3>
             <p>{user.given_name}, we have a list of packages available for your next holiday.</p>
             <table id="options" className="table">
                 <thead className="thead-dark">
