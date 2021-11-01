@@ -1,4 +1,10 @@
+import { useAuth0 } from "@auth0/auth0-react";
+
+
 const ChallengeOne = () => {
+
+  const {isAuthenticated} = useAuth0();
+    if(!isAuthenticated) return <div className="page-title content"><h2>Please login to view this page</h2></div>
     return (
         <div className="page-title content">
           <h2>Challenge #1 - Duplicate Accounts - License Concerns</h2>
